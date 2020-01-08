@@ -9,24 +9,36 @@
    font-weight: 100;
    letter-spacing: 2px;
    padding: 10px 30px 10px 30px;
-   position: 
+   position: relative; 
  }
+
 
  section {
- 	margin: 6px 10px 5px 12px;
-
+   margin: 5px 10px 5px 12px;
  }
 
+
 ul {
-  margin: 0;
-
-}
-
-
-
-
-
-footer {
   margin: 0 auto;
- 
+  padding: 0 20px;
+  text-align: center;
+  
 }
+
+textarea {
+  width: 75%;
+  height: 75px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+}
+
+.footer {
+  text-align: center;
+  padding: 2px;
+  letter-spacing: 2px;
+}
+
