@@ -7,45 +7,114 @@
 </head>
 <body>
 	<section>
-	<form action="/signup.html" method="get">
+	<form id="signup form" action="/signup.html" method="get">
 	<div id = "header">
 		<h2>BEL-Belding Exploratory Lab</h2>
 		<h3><u>Field Trip Request Form</u></h3>
 	</div>
-	<div class = "content">
-		<ul>
-		<label for="contactname">Contact Name:</label>
-        <input type="text" name="name" id="name">
-        <label for="phone">Phone:</label>
-        <input type="text" name="phone" id="phone">
-        <label for="username">Email:</label>
-        <input type="text" name="email" id="email">
-		<label for="username">Grade Level:</label>
-        <input type="text" name="gradelevel" id="gradelevel">
-        <label for="username">Organization:</label>
-        <input type="text" name="organization" id="organization"><br>
-        <label for="username">Date Submitted:</label>
-        <input type="text" name="datesubmitted" id="datesubmitted">
-        <label for="username">Dates Requested:</label>
-        <input type="text" name="datesrequested" id="datesrequested"><br>
-        <label for="username">Arrival Time:</label>
-        <input type="text" name="arrivaltime" id="arrivaltime">
-        <label for="username"># Students:</label>
+	<div class= "rowTab">
+        <div class="lables">
+		<label id="contact-name" for="contactname">Contact Name:</label>
+    </div>
+    <div class="rightTab">
+        <input autpofocus type="text" name="name" id="name" class="input-field" placeholder="Enter Your Name">
+    </div>
+</div>
+<div class="rowTab">
+    <div class="lables">
+        <label id="phone" for="phone">Phone:</label>
+    </div>
+    <div class="rightTab">
+        <input type="text" name="phone" id="phone" class="input-field" placeholder="Enter Your Phone Number">
+    </div>
+</div>
+<div class="rowTab">
+    <div class="lables">
+        <label id="username" for="username">Email:</label>
+    </div>
+    <div class="rightTab">
+        <input type="text" name="email" id="email" class="input-field" placeholder="Enter your Email">
+    </div>
+</div>
+    <div class="rowTab">
+    <div class="lables">
+		<label id="grade" for="grade">Grade Level:</label>
+    </div>
+        <div class="rightTab">
+        <input type="text" name="gradelevel" id="gradelevel" class="input-field" placeholder="Enter Grade Level">
+    </div>
+</div>
+     <div class="rowTab">
+     <div class="lables">
+        <label id="organization" for="organization">Organization:</label>
+     </div>
+    <div class="rightTab">
+        <input type="text" name="organization" id="organization" class="input-field" placeholder="Enter Your Organization">
+    </div>
+</div>
+    <div class="rowTab">
+    <div class="lables">
+        <label id="date-submitted" for="datesubmitted">Date Submitted:</label>
+        <div>
+    <div class="rightTab">
+        <input type="text" name="datesubmitted" id="datesubmitted" class="input-field" placeholder="Date Submitted">
+    </div>
+</div>
+    <div class="rowTab">
+    <div class="lables">
+        <label id="dates-requested" for="datesrequested">Dates Requested:</label>
+        <div>
+    <div class="rightTab">        
+        <input type="text" name="datesrequested" id="datesrequested" class="input-field" placeholder="Dates Requested">
+    </div>
+</div>
+    <div class="rowTab">
+    <div class="lables">
+        <label id="arrival-time" for="arrivaltime">Arrival Time:</label>
+        <div>
+     <div class="rightTab">       
+        <input type="text" name="arrivaltime" id="arrivaltime" class="input-field" placeholder="Arrival Time">
+    </div>
+</div>
+    <div class="rowTab">
+    <div class="lables">
+        <label id="number-students" for="number-students"># Students:</label>
+    <div class="rightTab">    
+        <div>
         <input id="amount" name="amount" 
-        type="number" step="1">
-        <label for="x2">x $2 = </label>
-        <input id="amount" name="amount" 
-        type="number" step="1"><br>
-        <label for="username"># Chaperones:</label>
-        <input id="amount" name="amount" 
-        type="number" step="1">
-        <label for="x2">x $2 = </label>
-        <input id="amount" name="amount" 
-        type="number" step="1"><br>
-        <label for="username"># Teachers:</label>Teachers
-        <input id="amount" name="amount" 
-        type="number" step="1">
-    </ul>
+        type="number" step="1" class="input-field">
+    </div>
+</div>
+    <div class="rowTab">
+    <div class="lables">
+        <label id="times-two-dollar" for="times-two-dollar">x $2 = </label>
+        <div>
+    <div class="rightTab"> 
+        <input id="amount" name="amount" type="number" step="1" class="input-field">
+    </div>
+</div>
+ <div class="rowTab">
+    <div class="lables">
+        <label id="times-chaperones" for="times-chaperones"># Chaperones:</label>
+        <div>
+        <input id="amount" name="amount" type="number" step="1" class="input-field">
+    </div>
+</div>
+ <div class="rowTab">
+    <div class="lables">
+        <label id="times-two-dollar" for="times-two-dollar">x $2 = </label>
+        <div>
+        <input id="amount" name="amount" type="number" step="1" class="input-field">               
+    </div>  
+ </div>             
+ <div class="rowTab">
+    <div class="lables">
+        <label id="number-teachers" for="number-teachers"># Teachers:</label>
+        <div>
+        <input id="amount" name="amount" type="number" step="1" class="input-field">
+    </div>
+</div>
+        <ul>
         <P>*Checks may be made payable to Belding Museum, nore BEL in the memorandum line.</P>
         <label for="extra">Accessibility/Sensitivity Needs</label>
         <br>

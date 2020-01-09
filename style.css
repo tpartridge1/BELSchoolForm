@@ -3,13 +3,17 @@
     font-family: 'Raleway', sans-serif;
  }
 
+ 
+
  .content {
-   width: 900px;
-   margin: auto; 
-   font-weight: 100;
+
+  width: 900px;
+  margin: auto; 
+    font-weight: 100;
    letter-spacing: 2px;
    padding: 10px 30px 10px 30px;
-   position: relative; 
+   position: relative;
+
  }
 
 
@@ -22,7 +26,6 @@ ul {
   margin: 0 auto;
   padding: 0 20px;
   text-align: center;
-  
 }
 
 textarea {
