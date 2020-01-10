@@ -6,13 +6,11 @@
 	<title>Belding Exploratory Lab Sign up Form</title>
 </head>
 <body>
-	<section>
-	<form id="signup form" action="/signup.html" method="get">
-	<div id = "header">
-		<h2>BEL-Belding Exploratory Lab</h2>
-		<h3><u>Field Trip Request Form</u></h3>
-	</div>
-	<div class= "rowTab">
+    <h2>BEL-Belding Exploratory Lab</h2>
+        <h3><u>Field Trip Request Form</u></h3>
+	<div id="form-outer">
+	<form id="signup form" action="/signup.html" method="GET">
+	<div class="rowTab">
         <div class="lables">
 		<label id="contact-name" for="contactname">Contact Name:</label>
     </div>
@@ -79,8 +77,8 @@
     <div class="rowTab">
     <div class="lables">
         <label id="number-students" for="number-students"># Students:</label>
+    </div>
     <div class="rightTab">    
-        <div>
         <input id="amount" name="amount" 
         type="number" step="1" class="input-field">
     </div>
@@ -93,40 +91,63 @@
         <input id="amount" name="amount" type="number" step="1" class="input-field">
     </div>
 </div>
- <div class="rowTab">
+    <div class="rowTab">
     <div class="lables">
         <label id="times-chaperones" for="times-chaperones"># Chaperones:</label>
-        <div>
+     <div>
+        <div class="rightTab"> 
         <input id="amount" name="amount" type="number" step="1" class="input-field">
     </div>
-</div>
- <div class="rowTab">
+    <div class="rowTab">
     <div class="lables">
         <label id="times-two-dollar" for="times-two-dollar">x $2 = </label>
-        <div>
+    </div> 
+     <div class="rightTab"> 
         <input id="amount" name="amount" type="number" step="1" class="input-field">               
     </div>  
  </div>             
- <div class="rowTab">
-    <div class="lables">
+   <div class="rowTab">
+   <div class="lables">
         <label id="number-teachers" for="number-teachers"># Teachers:</label>
-        <div>
+   <div>
+   </div>
+    <div class="rightTab">
         <input id="amount" name="amount" type="number" step="1" class="input-field">
     </div>
 </div>
-        <ul>
-        <P>*Checks may be made payable to Belding Museum, nore BEL in the memorandum line.</P>
-        <label for="extra">Accessibility/Sensitivity Needs</label>
-        <br>
-        <textarea id="extra" name="accessibilityneeds" rows="3" cols="40"></textarea>
-        <br><br>
-        <label for="remarks">Remarks</label>
+
+
+     <div class="rowTab">
+      <div class="labels">
+        <label for="accessNeeds">Are there any accessibility needs?</label>
+      </div>
+      <div class="rightTab">
+        <ul style="list-style: none;">
+          <li class="radio"><label>Yes<input name="radio-buttons" value="1"  type="radio" class="accessGroups" ></label></li>
+          <li class="radio"><label>No<input name="radio-buttons" value="2"  type="radio" class="accessGroups" ></label></li>
+          <li class="radio"><label>Not sure<input name="radio-buttons" value="3"  type="radio" class="accessGroups" ></label></li>
+      </div>
+    </div>
+
+      <div class="rowTab">
+      <div class="labels">
+        <label for="accessNeeds">Are there any sensitivity needs?</label>
+      </div>
+      <div class="rightTab">
+        <ul style="list-style: none;">
+          <li class="radio"><label>Yes<input name="radio-buttons" value="1"  type="radio" class="sensitiveGroups" ></label></li>
+          <li class="radio"><label>No<input name="radio-buttons" value="2"  type="radio" class="sensitiveGroups" ></label></li>
+          <li class="radio"><label>Not sure<input name="radio-buttons" value="3"  type="radio" class="sensitiveGroups" ></label></li>
+      </div>
+    </div>
+        <label for="remarks">Comments</label>
         <br>
         <textarea id="remarks" name="remarks" rows="3" cols="40"></textarea>
         <p>Please Note: You will recieve an email confirmation from a museum representative within five days business days of your request. Thankyou!</p>
+        <P>*Checks may be made payable to Belding Museum, note BEL in the memorandum line.</P>
         <input type="submit" value="Submit Form">
     </div>
-	</section>
+</div>
 	</form>
 	<div class ="footer">
 <p>Email: beldingmuseum@gmail.com<br>
