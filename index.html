@@ -6,6 +6,9 @@
 	<title>Belding Exploratory Lab Sign up Form</title>
 </head>
 <body>
+    <title>Belding Exploratory Lab Sign up Form</title>
+</head>
+<body>
     <h2>BEL-Belding Exploratory Lab</h2>
         <h3><u>Field Trip Request Form</u></h3>
         <h3>Planning Your Vist</h3>
@@ -38,98 +41,97 @@
             <li>Chaperones should encourage students to share the exhibits and prompt them to put items away when they are finished.</li>
             <li>Little ears are always listening, so please no offensive language.</li>
            <br><br>
-            <h3><u>Please Fill Out The Request Form Below</u></h3>  
-	<div id="form-outer">
-	<form id="signup form" action="/signup.html" method="GET">
-	<div class="rowTab">
-        <div class="lables">
-		<label id="contact-name" for="contactname">Contact Name:</label>
-    </div>
-    <div class="rightTab">
-        <input type="text" name="name" id="contact-name" class="input-field" placeholder="Enter Your Name">
-    </div>
-</div>
-<div class="rowTab">
-    <div class="lables">
-        <label id="phone" for="phone">Phone:</label>
-    </div>
-    <div class="rightTab">
-        <input type="text" name="phone" id="phone" class="input-field" placeholder="Enter Your Phone Number">
-    </div>
-</div>
-<div class="rowTab">
-    <div class="lables">
-        <label id="username" for="username">Email:</label>
-    </div>
-    <div class="rightTab">
-        <input type="text" name="email" id="email" class="input-field" placeholder="Enter your Email">
-    </div>
-</div>
+            <h3><u>Please Fill Out The Request Form Below</u></h3> 
+<form id="survey-form" method="GET" action="https://crossorigin.me/https://freecodecamp.com">
+    <div id="form-outer">
     <div class="rowTab">
-    <div class="lables">
-		<label id="grade" for="grade">Grade Level:</label>
+      <div class="labels">
+        <label id="name-label" for="name"> Contact Name: </label>
+      </div>
+      <div class="rightTab">
+        <input autofocus type="text" name="name" id="name" class="input-field" placeholder="Enter contact name">
+      </div>
     </div>
-        <div class="rightTab">
-        <input type="text" name="gradelevel" id="gradelevel" class="input-field" placeholder="Enter Grade Level">
-    </div>
-</div>
-     <div class="rowTab">
-     <div class="lables">
-        <label id="organization" for="organization">Organization:</label>
-     </div>
-    <div class="rightTab">
-        <input type="text" name="organization" id="organization" class="input-field" placeholder="Enter Your Organization">
-    </div>
-</div>
     <div class="rowTab">
-    <div class="lables">
-        <label id="date-submitted" for="datesubmitted">Date Submitted:</label>
-        <div>
-    <div class="rightTab">
-        <input type="text" name="datesubmitted" id="datesubmitted" class="input-field" placeholder="Date Submitted">
+      <div class="labels">
+        <label id="phone-label" for="phone"> Phone: </label>
+      </div>
+      <div class="rightTab">
+        <input type="phone" name="phone" id="phone" class="input-field" required placeholder="Enter your phone">
+      </div>
     </div>
-</div>
     <div class="rowTab">
-    <div class="lables">
-        <label id="dates-requested" for="datesrequested">Dates Requested:</label>
-        <div>
-    <div class="rightTab">        
-        <input type="text" name="datesrequested" id="datesrequested" class="input-field" placeholder="Dates Requested">
+      <div class="labels">
+        <label id="email" for="email"> Grade-Level: </label>
+      </div>
+      <div class="rightTab">
+        <input type="number" name="grade" id="number" min="1" max="125" class="input-field" placeholder="Grade">
+      </div>
     </div>
-</div>
+        <div class="rowTab">
+      <div class="labels">
+        <label id="organization-label" for="organization">Organization: </label>
+      </div>
+      <div class="rightTab">
+        <input autofocus type="text" name="organization" id="organization" class="input-field" placeholder="Enter your organization">
+      </div>
+    </div>
     <div class="rowTab">
-    <div class="lables">
-        <label id="arrival-time" for="arrivaltime">Arrival Time:</label>
-        <div>
-     <div class="rightTab">       
-        <input type="text" name="arrivaltime" id="arrivaltime" class="input-field" placeholder="Arrival Time">
-    </div>
-</div>
+      <div class="labels">
+        <label id="date-submited" for="date"> Date Submitted: </label>
+      </div>
+      <div class="rightTab">
+        <input type="date" name="date" id="date" class="input-field" required placeholder="Date submited">
+      </div>
+    </div>    
+        <div class="rowTab">
+      <div class="labels">
+        <label id="date-requested" for="date"> Date Requested: </label>
+      </div>
+      <div class="rightTab">
+        <input type="date" name="date" id="date" class="input-field" required placeholder="Date requested">
+      </div>
+    </div>  
     <div class="rowTab">
-    <div class="lables">
-        <label id="number-students" for="number-students">Number of Students:</label>
+      <div class="labels">
+        <label id="arrival-label" for="name">Arrival Time: </label>
+      </div>
+      <div class="rightTab">
+        <input autofocus type="text" name="arrival" id="arrival" class="input-field" placeholder="Enter arrival time">
+      </div>
     </div>
-    <div class="rightTab">    
-        <input id="amount" name="amount" 
-        type="number" step="1" class="input-field">
-    </div>
-</div>
     <div class="rowTab">
-    <div class="lables">
-        <label id="times-chaperones" for="times-chaperones">Number of Chaperones:</label>
-     <div>
-        <div class="rightTab"> 
-        <input id="amount" name="amount" type="number" step="1" class="input-field">
-    </div>        
-   <div class="rowTab">
-   <div class="lables">
-        <label id="number-teachers" for="number-teachers">Number of Teachers:</label>
-   <div>
-   </div>
-    <div class="rightTab">
-        <input id="amount" name="amount" type="number" step="1" class="input-field">
+      <div class="labels">
+        <label id="departure-label" for="departure">Departure Time: </label>
+      </div>
+      <div class="rightTab">
+        <input autofocus type="text" name="departure" id="departure" class="input-field" placeholder="Enter departure time">
+      </div>
     </div>
-</div>
+         <div class="rowTab">
+      <div class="labels">
+        <label id="students-label" for="students">Number of Students: </label>
+      </div>
+      <div class="rightTab">
+        <input autofocus type="number" name="students" id="students" class="input-field" placeholder="Number of students">
+      </div>
+    </div>
+      <div class="rowTab">
+      <div class="labels">
+        <label id="chaperones-label" for="chaperones">Number of Chaperones: </label>
+      </div>
+      <div class="rightTab">
+        <input autofocus type="number" name="chaperones" id="chaperones" class="input-field" placeholder="Number of Chaperones">
+      </div>
+    </div>
+       <div class="rowTab">
+      <div class="labels">
+        <label id="teachers" for="teachers">Number of Teachers: </label>
+      </div>
+      <div class="rightTab">
+        <input autofocus type="number" name="teachers" id="teachers" class="input-field" placeholder="Number of Teachers">
+      </div>
+    </div>
      <div class="rowTab">
       <div class="labels">
         <label for="accessNeeds">Are there any accessibility needs?</label>
@@ -160,9 +162,8 @@
         <input type="submit" value="Submit Form"><br>
     </div>
 </div>
-	</form>
-    <br>
-	<div class ="footer">
+      <br>
+      <div class ="footer">
 Email: beldingmuseum@gmail.com<br>
 108 Hanover Street PO Box 45. Belding, MI 48809  | (616) 794-1900 ext. 425.<br>
 Copyright 2020 | Belding Museum
