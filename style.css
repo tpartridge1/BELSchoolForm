@@ -12,6 +12,10 @@ h4, li {
 text-align: left;
 }
 
+p {
+  text-align: left;
+}
+
 header {
   font-size: 2em;
   font-weight: bold;
@@ -27,6 +31,17 @@ header {
   padding: 10px;
   padding-top: 20px;
 }
+
+h4, li, p {
+   margin: 0 auto;
+  border-radius: 4px;
+  width: 75%;
+  max-width: 900px;
+  padding: 10px;
+  padding-top: 20px;
+  list-style: none;
+}
+
 
 .labels {
   display: inline-block;
