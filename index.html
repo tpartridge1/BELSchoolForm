@@ -107,7 +107,7 @@
       </div>
       <div class="rightTab">
         <ul style="list-style: none;">
-          <li class="radio"><label>Yes<input name="radio-buttons" value="1"  type="radio" class="accessGroups" ></label></li>
+          <li class="radio"><label>Yes<input name="radio-buttons" value="1"  type="radio" class="accessGroups"></label></li>
           <li class="radio"><label>No<input name="radio-buttons" value="2"  type="radio" class="accessGroups" ></label></li>
           <li class="radio"><label>Not sure<input name="radio-buttons" value="3"  type="radio" class="accessGroups" ></label></li>
       </div>
@@ -118,17 +118,21 @@
       </div>
       <div class="rightTab">
         <ul style="list-style: none;">
-          <li class="radio"><label>Yes<input name="radio-buttons" value="1"  type="radio" class="sensitiveGroups" ></label></li>
+          <li class="radio"><label>Yes<input name="radio-buttons" value="1"  type="radio" id="sensitive" onclick="liClcik()" class="sensitiveGroups" ></label></li>
           <li class="radio"><label>No<input name="radio-buttons" value="2"  type="radio" class="sensitiveGroups" ></label></li>
           <li class="radio"><label>Not sure<input name="radio-buttons" value="3"  type="radio" class="sensitiveGroups" ></label></li>
       </div>
     </div>
-        <label for="remarks">Comments</label>
+        <label for="remarks">Remarks:</label>
         <br>
         <textarea id="remarks" name="remarks" rows="3" cols="40"></textarea>
         <p>Please Note: You will recieve an email confirmation from a museum representative within five days business days of your request. Thankyou!</p>
         <P>*Checks may be made payable to Belding Museum, note BEL in the memorandum line.</P>
+        <br>
         <input type="submit" value="Submit Form"><br>
+        <div id="print">
+             <input type="button" id="print" value="Print Form" onClick="window.print()">
+           </div>
     </div><br><br>
 </div>
         <h3>Planning Your Vist</h3>
@@ -138,10 +142,10 @@
         <p>Visits are typically two hours. Cost is $2.00 per person. School personnel, ie, teachers, teachers assistants, are free of charge.</p>
         <h3>Payment:</h3>
          <p>One person is responsible for payment for the group. Payment is for all those that were confirmed prior to your visit and should be made in one transaction. The museum accepts cash or checks. At this point we do not accept credit cards or purchase orders. Additional attendees who are not included in the final count will pay the attendant on duty.</p>   
-         <h3>Lunch Room: </h3>
-         <p>A space for lunch is available, but must be approved prior to visit. Typically, the lunch reservation is for 30 minutes. Tables and chairs will be set up and taken down by chaperones.</p>
-         <h3>Museum Manners: </h3>
-         <p>Use inside voices. Use walking feet. Clean up after you're done in an area. Stay with your group. No food or drinks are allowed inside the museum exhibit areas of the BEL. Do not block doorways or the hallway. Chaperones must be 16 years or older. Students must be assigned to a specific chaperone in advance of your visit. Chaperones are expected to remain with their group and to maintain appropriate control. Chaperones should involve their children int he exhibits and activities at the museum. Chaperones should encourage students to share the exhibits and prompt them to put items away when they are finished. Little ears are always listening, so please no offensive language.</p>
+        <h3>Lunch Room: </h3>
+        <p>A space for lunch is available, but must be approved prior to visit. Typically, the lunch reservation is for 30 minutes. Tables and chairs will be set up and taken down by chaperones.</p>
+        <h3>Museum Manners: </h3>
+        <p>Use inside voices. Use walking feet. Clean up after you're done in an area. Stay with your group. No food or drinks are allowed inside the museum exhibit areas of the BEL. Do not block doorways or the hallway. Chaperones must be 16 years or older. Students must be assigned to a specific chaperone in advance of your visit. Chaperones are expected to remain with their group and to maintain appropriate control. Chaperones should involve their children int he exhibits and activities at the museum. Chaperones should encourage students to share the exhibits and prompt them to put items away when they are finished. Little ears are always listening, so please no offensive language.</p>
            <br><br>
       <div class ="footer">
 <h3>Contact Us</h3><br><br>
