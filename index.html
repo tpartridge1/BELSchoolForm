@@ -107,9 +107,10 @@
       </div>
       <div class="rightTab">
         <ul style="list-style: none;">
-          <li class="radio"><label>Yes<input name="radio-buttons" value="1"  type="radio" class="accessGroups"></label></li>
+          <li class="radio"><label onclick="myFunctionOne()">Yes<input name="radio-buttons" value="1"  type="radio" class="accessGroups"></label></li>
           <li class="radio"><label>No<input name="radio-buttons" value="2"  type="radio" class="accessGroups" ></label></li>
           <li class="radio"><label>Not sure<input name="radio-buttons" value="3"  type="radio" class="accessGroups" ></label></li>
+           <div id="myDIV1">
       </div>
     </div>
       <div class="rowTab">
@@ -118,16 +119,21 @@
       </div>
       <div class="rightTab">
         <ul style="list-style: none;">
-          <li class="radio"><label>Yes<input name="radio-buttons" value="1"  type="radio" id="sensitive" onclick="liClcik()" class="sensitiveGroups" ></label></li>
+          <li class="radio"><label onclick="myFunctionTwo()">Yes<input name="radio-buttons" value="1"  type="radio" class="sensitiveGroups" ></label></li>
+        <div id="myDIV">
+        </div>
           <li class="radio"><label>No<input name="radio-buttons" value="2"  type="radio" class="sensitiveGroups" ></label></li>
           <li class="radio"><label>Not sure<input name="radio-buttons" value="3"  type="radio" class="sensitiveGroups" ></label></li>
+          <div id="myDIV2">
       </div>
     </div>
+    <div>
         <label for="remarks">Remarks:</label>
         <br>
         <textarea id="remarks" name="remarks" rows="3" cols="40"></textarea>
         <p>Please Note: You will recieve an email confirmation from a museum representative within five days business days of your request. Thankyou!</p>
         <P>*Checks may be made payable to Belding Museum, note BEL in the memorandum line.</P>
+      </div>
         <br>
         <input type="submit" value="Submit Form"><br>
         <div id="print">
@@ -153,5 +159,6 @@ Email: beldingmuseum@gmail.com
 108 Hanover Street PO Box 45. Belding, MI 48809  | (616) 794-1900 ext. 425.<br>
 Copyright 2020 | Belding Museum
 </div>
+<script type="text/javascript" src="script.js"></script>
 </body>
 </html>
