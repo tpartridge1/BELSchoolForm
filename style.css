@@ -116,9 +116,25 @@ input[type="checkbox"] {
   padding-bottom: 10px;
 }
 
-.done {
-  display: none;
+.mystyle1 {
+  width: 100%;
+  padding: 25px;
+  background-color: coral;
+  color: white;
+  font-size: 25px;
+  box-sizing: border-box;
 }
+
+.mystyle2 {
+  width: 100%;
+  padding: 25px;
+  background-color: coral;
+  color: white;
+  font-size: 25px;
+  box-sizing: border-box;
+}
+
+
 
 
 @media screen and (max-width: 833px) {
