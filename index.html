@@ -101,34 +101,39 @@
         <input autofocus type="number" name="teachers" id="teachers" class="input-field" placeholder="Number of Teachers">
       </div>
     </div>
+
+     <div class="rowTab">
+      <div class="labels">
+        <label for="accessNeeds"> Are there any sensitivity needs?</label>
+      </div>
+      <div class="rightTab">
+        <ul style="list-style: none;">
+          <div id="newpost">
+  <textarea id="remarks" name="remarks" rows="3" cols="40"></textarea>
+</div>
+     <li class="radio" id="button"><label>No<input name="radio-buttons" value="1"  type="radio" class="accessGroups"></label></li>   
+          <li class="radio"><label>Yes<input name="radio-buttons" value="2"  type="radio" class="accessGroups" ></label></li>
+          <li class="radio"><label>Not sure<input name="radio-buttons" value="3"  type="radio" class="accessGroups" ></label></li>    
+ </div>
+
+
      <div class="rowTab">
       <div class="labels">
         <label for="accessNeeds"> Are there any accessibility needs?</label>
       </div>
       <div class="rightTab">
         <ul style="list-style: none;">
-          <li class="radio"><label onclick="myFunctionOne()">Yes<input name="radio-buttons" value="1"  type="radio" class="accessGroups"></label></li>
-          <div id="myDIV1"><textarea id="remarks" name="remarks" rows="3" cols="40"></textarea>
-          </div>
-          <li class="radio"><label>No<input name="radio-buttons" value="2"  type="radio" class="accessGroups" ></label></li>
-          <li class="radio"><label>Not sure<input name="radio-buttons" value="3"  type="radio" class="accessGroups" ></label></li>
-      </div>
-      <div class="rowTab">
-      <div class="labels">
-        <label for="accessNeeds"> Are there any sensitivity needs?</label>
-      </div>
-      <div class="rightTab">
-        <ul style="list-style: none;">
-          <li class="radio"><label onclick="myFunctionTwo()">Yes<input name="radio-buttons" value="1"  type="radio" class="sensitiveGroups" ></label></li>
-        <div id="myDIV2">
-          <textarea id="remarks" name="remarks" rows="3" cols="40"></textarea>
-        </div>
-          <li class="radio"><label>No<input name="radio-buttons" value="2"  type="radio" class="sensitiveGroups" ></label></li>
-          <li class="radio"><label>Not sure<input name="radio-buttons" value="3"  type="radio" class="sensitiveGroups" ></label></li>
-      </div>
-    </div>
+          <div id="newpost2">
+  <textarea id="remarks" name="remarks" rows="3" cols="40"></textarea>
+</div>
+     <li class="radio" id="button2"><label>No<input name="radio-buttons" value="1"  type="radio" class="accessGroups"></label></li>   
+          <li class="radio"><label>Yes<input name="radio-buttons" value="2"  type="radio" class="accessGroups" ></label></li>
+          <li class="radio"><label>Not sure<input name="radio-buttons" value="3"  type="radio" class="accessGroups" ></label></li>    
+ </div>
+
+
     <div>
-        <label for="remarks">Remarks:</label>
+        <label for="remarks">Any Additional Information:</label>
         <br>
         <textarea id="remarks" name="remarks" rows="3" cols="40"></textarea>
         <p>Please Note: You will recieve an email confirmation from a museum representative within five days business days of your request. Thankyou!</p>
