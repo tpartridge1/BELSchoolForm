@@ -3,14 +3,16 @@
 <head>
   <meta charset="utf-8">
   <link rel="stylesheet" type="text/css" href="style.css">
-  <title>Belding Exploraration Lab Sign up Form</title>
+  <title>Belding Exploratory Lab Sign up Form</title>
 </head>
 <body>
-    <title>Belding Exploration Lab Sign up Form</title>
+    <title>Belding Exploratory Lab Sign up Form</title>
 </head>
 <body>
     <h2>BEL-Belding Exploration Lab</h2>
         <h3><u>Field Trip Request Form</u></h3><br>
+        Please fill out the form information and click submit whe you are done.<br><br>
+       <a href="#planvisit">Planning Your Visit</a><br><br> 
 <form id="survey-form" method="GET" action="contact.php">
     <div id="form-outer">
     <div class="rowTab">
@@ -108,11 +110,12 @@
       </div>
       <div class="rightTab">
         <ul style="list-style: none;">
+     
+     <li class="radio" id="button"><label>Yes<input name="radio-buttons" value="1"  type="radio" class="accessGroups"></label></li>
           <div id="newpost">
   <textarea id="remarks" name="remarks" rows="3" cols="40"></textarea>
-</div>
-     <li class="radio" id="button"><label>No<input name="radio-buttons" value="1"  type="radio" class="accessGroups"></label></li>   
-          <li class="radio"><label>Yes<input name="radio-buttons" value="2"  type="radio" class="accessGroups" ></label></li>
+</div>   
+          <li class="radio"><label>No<input name="radio-buttons" value="2"  type="radio" class="accessGroups" ></label></li>
           <li class="radio"><label>Not sure<input name="radio-buttons" value="3"  type="radio" class="accessGroups" ></label></li>    
  </div>
 
@@ -123,11 +126,12 @@
       </div>
       <div class="rightTab">
         <ul style="list-style: none;">
-          <div id="newpost2">
+          
+     <li class="radio" id="button2"><label>Yes<input name="radio-buttons" value="1"  type="radio" class="accessGroups"></label></li>
+     <div id="newpost2">
   <textarea id="remarks" name="remarks" rows="3" cols="40"></textarea>
-</div>
-     <li class="radio" id="button2"><label>No<input name="radio-buttons" value="1"  type="radio" class="accessGroups"></label></li>   
-          <li class="radio"><label>Yes<input name="radio-buttons" value="2"  type="radio" class="accessGroups" ></label></li>
+</div>   
+          <li class="radio"><label>No<input name="radio-buttons" value="2"  type="radio" class="accessGroups" ></label></li>
           <li class="radio"><label>Not sure<input name="radio-buttons" value="3"  type="radio" class="accessGroups" ></label></li>    
  </div>
 
@@ -135,8 +139,8 @@
     <div>
         <label for="remarks">Any Additional Information:</label>
         <br>
-        <textarea id="remarks" name="remarks" rows="3" cols="40"></textarea>
-        <p>Please Note: You will recieve an email confirmation from a museum representative within five days business days of your request. Thankyou!</p>
+        <textarea id="remarks" name="remarks" rows="3" cols="40"></textarea><br><br>
+        <p style="background-color: #FFFF00"> Please Note: You will recieve an email confirmation from a museum representative within five days business days of your request. Thankyou!</p>
         <P>*Checks may be made payable to Belding Museum, note BEL in the memorandum line.</P>
       </div>
         <br>
@@ -146,7 +150,7 @@
            </div>
     </div><br><br>
 </div>
-        <h3>Planning Your Vist</h3>
+        <h3><a name="planvisit">Planning Your Vist</h3></a>
         <p>Students may explore the museum with classmates and chaperones. This field trip is great for early childhood groups, preschool and lower elementary grades. Simply play and explore the museum with your group! Visits must be booked in advance.<br><br>
         Discovery Field Trips are self-guided and allow students and chaperones to experience the museum at their own pace. Groups are greeted by a facilitator who will provide a short overview of the museum and other important information.</p><br>
         <h3>General Information:</h3>
@@ -162,7 +166,7 @@
 <h3>Contact Us</h3><br><br>
 Email: beldingmuseum@gmail.com
 108 Hanover Street PO Box 45. Belding, MI 48809  | (616) 794-1900 ext. 425.<br>
-Copyright 2020 | Belding Museum
+Copyright 2020 | <a href="https://belding.mi.us/museum_history.php">Belding Museum</a>
 </div>
 <script type="text/javascript" src="script.js"></script>
 </body>
