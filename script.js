@@ -1,22 +1,17 @@
-var button = document.getElementById('button');
-var button2 = document.getElementById('button2');
+function myFunction() {
+var x = document.getElementById('myDIV');
+if (x.style.display === 'none') {
+    x.style.display = 'block';
+} else {
+    x.style.display = 'none';
+   }
+}
 
-button.onclick = function() {
-    var div = document.getElementById('newpost');
-    if (div.style.display !== 'none') {
-        div.style.display = 'none';
-    }
-   else {
-        div.style.display = 'block';
-    }
-};
-
-button2.onclick = function() {
-    var div = document.getElementById('newpost2');
-    if (div.style.display !== 'none') {
-        div.style.display = 'none';
-    }
-   else {
-        div.style.display = 'block';
-    }
-};
+function myFunction2() {
+var x = document.getElementById('myDIV2');
+if (x.style.display === 'none') {
+    x.style.display = 'block';
+} else {
+    x.style.display = 'none';
+   }
+}
