@@ -110,10 +110,6 @@ header {
   padding-bottom: 10px;
 }
 
-div {
- 
-   text-align: center;
-}
 
 /*to make form responsive*/
 @media screen and (max-width: 833px) {
