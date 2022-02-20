@@ -7,14 +7,13 @@
 </head>
 <body>
   <!--Heading and instructions for use of online form-->
-  <h2>BEL-Belding Exploration Lab</h2>
+  <h2>BEL-Belding Exploration Lab</h2> 
   <h3><u>Field Trip Request Form</u></h3><br>
-  Please fill out the form information and click print form at the top of the page. Save as pdf and email the form from your email account when you are done.
-  <br><br>
+  <br>
   <a href="#planvisit">Planning Your Visit</a><br>
   <br>
   <!--form-->
-  <form action="mailto:beldingmuseum@gmail.com">
+  <form>
     <div id="form-outer">
       <div class="rowTab">
         <div class="labels">
@@ -48,20 +47,40 @@
           <input autofocus="" class="input-field" id="organization" name="organization" placeholder="Enter your organization" type="text">
         </div>
       </div>
+      <br>
+      <b>**Please choose three flexible dates you would like to visit the BEL.</b>
+      <br>
+      <br>
+      <div class="rowTab">
+        <div class="labels">
+          <label for="date" id="date-requested">1st Date Requested:</label>
+        </div>
+        <div class="rightTab">
+          <input class="input-field" id="date" name="date" placeholder="Date requested" required="" type="date">
+        </div>
+      </div>
+      <div class="rowTab">
+        <div class="labels">
+          <label for="date" id="date-requested">2nd Date Requested:</label>
+        </div>
+        <div class="rightTab">
+          <input class="input-field" id="date" name="date" placeholder="Date requested" required="" type="date">
+        </div>
+      </div>
+      <div class="rowTab">
+        <div class="labels">
+          <label for="date" id="date-requested">3rd Date Requested:</label>
+        </div>
+        <div class="rightTab">
+          <input class="input-field" id="date" name="date" placeholder="Date requested" required="" type="date">
+        </div>
+      </div>
       <div class="rowTab">
         <div class="labels">
           <label for="date" id="date-submited">Date Submitted:</label>
         </div>
         <div class="rightTab">
           <input class="input-field" id="date" name="date" placeholder="Date submited" required="" type="date">
-        </div>
-      </div>
-      <div class="rowTab">
-        <div class="labels">
-          <label for="date" id="date-requested">Date Requested:</label>
-        </div>
-        <div class="rightTab">
-          <input class="input-field" id="date" name="date" placeholder="Date requested" required="" type="date">
         </div>
       </div>
       <div class="rowTab">
@@ -126,7 +145,8 @@
       <div>
         <label for="remarks">Any Additional Information:</label><br>
         <textarea cols="40" id="remarks" name="remarks" rows="3"></textarea><br>
-        <br>
+        <a href= "mailto:john@example.com ? {subject} = {subject}" >Email Form</a>  
+        <br><br>
         <p style="background-color: #deeb34">Please Note: You will recieve an email confirmation from a museum representative within five business days of your request. Thankyou!</p>
         <p>*Checks may be made payable to Belding Museum, note BEL in the memorandum line.</p>
       </div><br>
@@ -134,7 +154,9 @@
         <input id="print" onclick="window.print()" type="button" value="Print Form">
       </div>
       </div>
-    </div><br>
+    </div>
+    </form>
+    <br>
     <!--end of form-->
     <br>
     <!--additional instructions for visitors-->
@@ -155,7 +177,7 @@
     <h3>Contact Us:</h3><br>
       <p1>Email Us: beldingmuseum@gmail.com</p1><br>
       <p1>Belding Museum | 108 Hanover Street PO Box 45. Belding, MI 48809 | (616) 794-1900</p1><br>
-      <p1>&copy;Belding Museum 2020 | <a href="https://belding.mi.us/museum_history.php">Museum Website</a></p1>
+      <p1>&copy;Belding Museum 2022 | <a href="https://belding.mi.us/museum_history.php">Museum Website</a></p1>
     <script src="script.js" type="text/javascript">
     </script> 
   </form>
