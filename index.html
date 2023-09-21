@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8">
   <link href="style.css" rel="stylesheet" type="text/css">
-  <title>Belding Exploratory Lab Sign up Form</title>
+  <title>Belding Exploratory Lab Field Trip Request Form</title>
 </head>
+
 <body>
   <!--Heading and instructions for use of online form-->
-  <h2>BEL-Belding Exploration Lab</h2> 
+  <h2>BEL-Belding Exploration Lab</h2>
   <h3><u>Field Trip Request Form</u></h3><br>
   <br>
   <a href="#planvisit">Planning Your Visit</a><br>
@@ -20,7 +22,8 @@
           <label for="name" id="name-label">Contact Name:</label>
         </div>
         <div class="rightTab">
-          <input autofocus="" class="input-field" id="name" name="name" placeholder="Enter contact name" required="" type="text">
+          <input autofocus="" class="input-field" id="name" name="name" placeholder="Enter contact name" required=""
+            type="text">
         </div>
       </div>
       <div class="rowTab">
@@ -44,7 +47,8 @@
           <label for="organization" id="organization-label">Organization:</label>
         </div>
         <div class="rightTab">
-          <input autofocus="" class="input-field" id="organization" name="organization" placeholder="Enter your organization" type="text">
+          <input autofocus="" class="input-field" id="organization" name="organization"
+            placeholder="Enter your organization" type="text">
         </div>
       </div>
       <br>
@@ -88,7 +92,8 @@
           <label for="name" id="arrival-label">Arrival Time:</label>
         </div>
         <div class="rightTab">
-          <input autofocus="" class="input-field" id="arrival" name="arrival" placeholder="Enter arrival time, ex: 2pm" type="text">
+          <input autofocus="" class="input-field" id="arrival" name="arrival" placeholder="Enter arrival time, ex: 2pm"
+            type="text">
         </div>
       </div>
       <div class="rowTab">
@@ -96,7 +101,8 @@
           <label for="departure" id="departure-label">Departure Time:</label>
         </div>
         <div class="rightTab">
-          <input autofocus="" class="input-field" id="departure" name="departure" placeholder="Enter departure time ex: 3pm" type="text">
+          <input autofocus="" class="input-field" id="departure" name="departure"
+            placeholder="Enter departure time ex: 3pm" type="text">
         </div>
       </div>
       <div class="rowTab">
@@ -104,7 +110,8 @@
           <label for="students" id="students-label">Number of Students:</label>
         </div>
         <div class="rightTab">
-          <input autofocus="" class="input-field" id="students" name="students" placeholder="Number of students" type="number">
+          <input autofocus="" class="input-field" id="students" name="students" placeholder="Number of students"
+            type="number">
         </div>
       </div>
       <div class="rowTab">
@@ -112,7 +119,8 @@
           <label for="chaperones" id="chaperones-label">Number of Chaperones:</label>
         </div>
         <div class="rightTab">
-          <input autofocus="" class="input-field" id="chaperones" name="chaperones" placeholder="Number of Chaperones" type="number">
+          <input autofocus="" class="input-field" id="chaperones" name="chaperones" placeholder="Number of Chaperones"
+            type="number">
         </div>
       </div>
       <div class="rowTab">
@@ -136,8 +144,10 @@
                   <textarea cols="40" id="remarks" name="remarks" placeholder="list them here..." rows="3"></textarea>
                 </div>
               </li>
-              <li class="radio"><label>No<input class="accessGroups" name="radio-buttons" onclick="show1();" type="radio" value="2"></label></li>
-              <li class="radio"><label>Not sure<input class="accessGroups" name="radio-buttons" onclick="show1();" type="radio" value="3"></label></li>
+              <li class="radio"><label>No<input class="accessGroups" name="radio-buttons" onclick="show1();"
+                    type="radio" value="2"></label></li>
+              <li class="radio"><label>Not sure<input class="accessGroups" name="radio-buttons" onclick="show1();"
+                    type="radio" value="3"></label></li>
             </ul>
           </div>
         </div>
@@ -145,41 +155,57 @@
       <div>
         <label for="remarks">Any Additional Information:</label><br>
         <textarea cols="40" id="remarks" name="remarks" rows="3"></textarea><br>
-        <a href= "mailto:john@example.com ? {subject} = {subject}" >Email Form</a>  
+        <a href="mailto:john@example.com ? {subject} = {subject}">Email Form</a>
         <br><br>
-        <p style="background-color: #deeb34">Please Note: You will recieve an email confirmation from a museum representative within five business days of your request. Thankyou!</p>
+        <p style="background-color: #deeb34">Please Note: You will recieve an email confirmation from a museum
+          representative within five business days of your request. Thankyou!</p>
         <p>*Checks may be made payable to Belding Museum, note BEL in the memorandum line.</p>
       </div><br>
       <div id="print">
         <input id="print" onclick="window.print()" type="button" value="Print Form">
       </div>
-      </div>
     </div>
-    </form>
+    </div>
+  </form>
+  <br>
+  <!--end of form-->
+  <br>
+  <!--additional instructions for visitors-->
+  <h3><a id="planvisit" name="planvisit">Planning Your Vist</a></h3>
+  <p>Students may explore the museum with classmates and chaperones. This field trip is great for early childhood
+    groups, preschool and, lower elementary grades. Simply play and explore the museum with your group! Visits must be
+    booked in advance.<br>
     <br>
-    <!--end of form-->
-    <br>
-    <!--additional instructions for visitors-->
-    <h3><a id="planvisit" name="planvisit">Planning Your Vist</a></h3>
-    <p>Students may explore the museum with classmates and chaperones. This field trip is great for early childhood groups, preschool and, lower elementary grades. Simply play and explore the museum with your group! Visits must be booked in advance.<br>
-    <br>
-    Discovery Field Trips are self-guided and allow students and chaperones to experience the museum at their own pace. Groups are greeted by a facilitator who will provide a short overview of the museum and other important information.</p><br>
-    <h3>General Information:</h3>
-    <p>Visits are typically two hours. Cost is $2.00 per person. School personnel, ie, teachers, teachers assistants, are free of charge.</p>
-    <h3>Payment:</h3>
-    <p>One person is responsible for payment for the group. Payment is for all those that were confirmed prior to your visit and should be made in one transaction. The museum accepts cash or checks. At this point we do not accept credit cards or purchase orders. Additional attendees, who are not included in the final count, will pay the attendant on duty.</p>
-    <h3>Lunch Room:</h3>
-    <p>A space for lunch is available, but must be approved prior to visit. Typically, the lunch reservation is for 30 minutes. Tables and chairs will be set up and taken down by chaperones.</p>
-    <h3>Museum Manners:</h3>
-    <p>Use inside voices. Use walking feet. Clean up after you're done in an area. Stay with your group. No food or drinks are allowed inside of the BEL. Do not block doorways or the hallway. Chaperones must be 16 years or older. Students must be assigned to a specific chaperone in advance of your visit. Chaperones are expected to remain with their group and to maintain appropriate control. Chaperones should involve their children in the exhibits and activities at the museum. Chaperones should encourage students to share the exhibits and prompt them to put items away when they are finished. Little ears are always listening, so please no offensive language.</p><br>
-    <a href="index.html" target="_top">Top</a>
-    <!--footer and contact information-->
-    <h3>Contact Us:</h3><br>
-      <p1>Email Us: beldingmuseum@gmail.com</p1><br>
-      <p1>Belding Museum | 108 Hanover Street PO Box 45. Belding, MI 48809 | (616) 794-1900</p1><br>
-      <p1>&copy;Belding Museum 2022 | <a href="https://belding.mi.us/museum_history.php">Museum Website</a></p1>
-    <script src="script.js" type="text/javascript">
-    </script> 
+    Discovery Field Trips are self-guided and allow students and chaperones to experience the museum at their own pace.
+    Groups are greeted by a facilitator who will provide a short overview of the museum and other important information.
+  </p><br>
+  <h3>General Information:</h3>
+  <p>Visits are typically two hours. Cost is $3.00 per person. School personnel, ie, teachers, teachers assistants, are
+    free of charge.</p>
+  <h3>Payment:</h3>
+  <p>One person is responsible for payment for the group. Payment is for all those that were confirmed prior to your
+    visit and should be made in one transaction. The museum accepts cash or checks. At this point we do not accept
+    credit cards or purchase orders. Additional attendees, who are not included in the final count, will pay the
+    attendant on duty.</p>
+  <h3>Lunch Room:</h3>
+  <p>A space for lunch is available, but must be approved prior to visit. Typically, the lunch reservation is for 30
+    minutes. Tables and chairs will be set up and taken down by chaperones.</p>
+  <h3>Museum Manners:</h3>
+  <p>Use inside voices. Use walking feet. Clean up after you're done in an area. Stay with your group. No food or drinks
+    are allowed inside of the BEL. Do not block doorways or the hallway. Chaperones must be 16 years or older. Students
+    must be assigned to a specific chaperone in advance of your visit. Chaperones are expected to remain with their
+    group and to maintain appropriate control. Chaperones should involve their children in the exhibits and activities
+    at the museum. Chaperones should encourage students to share the exhibits and prompt them to put items away when
+    they are finished. Little ears are always listening, so please no offensive language.</p><br>
+  <a href="index.html" target="_top">Top</a>
+  <!--footer and contact information-->
+  <h3>Contact Us:</h3><br>
+  <p1>Email Us: beldingmuseum@gmail.com</p1><br>
+  <p1>Belding Museum | 108 Hanover Street PO Box 45. Belding, MI 48809 | (616) 794-1900</p1><br>
+  <p1>&copy;Belding Museum 2022 | <a href="https://belding.mi.us/museum_history.php">Museum Website</a></p1>
+  <script src="script.js" type="text/javascript">
+  </script>
   </form>
 </body>
+
 </html>
